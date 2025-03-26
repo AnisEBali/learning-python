@@ -19,3 +19,15 @@ two_entries = {
     'friday' : 'the best day'
 }
 print(two_entries['friday']+ ", " + two_entries['monday'])
+
+profile = {
+    'name' : 'Anis',
+    'skills' : {
+        'python' : 'beginner',
+        'design thinking' : 'advanced'
+    }
+}
+
+print(profile['skills']['python'])
+#will only python's definition
+#print(profile['skills']) will show all 4 words
