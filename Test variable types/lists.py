@@ -18,3 +18,10 @@ print(complex_list[0].real)
 print(complex_list[1].real)
 print(complex_list[0].imag)
 print(complex_list[1].imag)
+
+#Inner lists
+inner_list = [[1,2,3],[True,False]]
+print(inner_list)
+#This has 3 elements
+three_list = [[1,2], [True,True], []]
+print(len(three_list))
