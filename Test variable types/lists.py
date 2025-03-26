@@ -25,3 +25,13 @@ print(inner_list)
 #This has 3 elements
 three_list = [[1,2], [True,True], []]
 print(len(three_list))
+
+inthelist = [1,2,3,4]
+print(1 in inthelist)
+#true
+
+print(10 in inthelist)
+#false
+
+print(14 not in inthelist)
+#true
