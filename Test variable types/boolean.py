@@ -13,3 +13,6 @@ print (3^2 == 9)
 #false
 #Power of 2 = **
 print (3**2 == 9)
+
+print (12 % 5 == 2)
+#Modulo ---> Gives 12 devided by 5 with a rest of 2
