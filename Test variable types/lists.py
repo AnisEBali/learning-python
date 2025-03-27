@@ -35,3 +35,9 @@ print(10 in inthelist)
 
 print(14 not in inthelist)
 #true
+
+my_pet = 'My cat is Tiger'
+print('Tiger' in my_pet)
+#true
+
+
