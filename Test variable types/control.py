@@ -40,3 +40,21 @@ if m:
 else: 
     print('m is lying...')
 #if m was lying, it wouldn't have checked if n was lying or not
+
+#for loop
+h = [1,2,3,4]
+for number in h:
+    print(number)
+
+print("A break between the for and while loops")
+
+#while loop
+i = 0
+while i < 5:
+    print(i)
+    i = i + 1 
+#Last line is very important!
+#Otherwise it prints 0 forever!!!
+
+
+
