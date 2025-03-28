@@ -14,3 +14,4 @@ print(new_list)
 
 #print(new_list.append(6)) = doesn't work
 
+#tuples are more memory-efficient than lists

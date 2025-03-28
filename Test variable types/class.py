@@ -4,7 +4,7 @@ class Dog:
     def __init__(self):
 #INITIALISATION OF THE CLASS
 #DOUBLE UNDERSCORES!!!!
-#These are attributes
+#These are attributes:
         self.name = 'Rover'
         self.legs = 4
 #Def = new METHOD
