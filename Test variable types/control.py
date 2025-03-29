@@ -56,5 +56,16 @@ while i < 5:
 #Last line is very important!
 #Otherwise it prints 0 forever!!!
 
+#a = [1,2,3,4]
+#while True:
+#print(a[0])
+#-> This will never stop because the statement is always considered True
+print('Another break')
 
-
+finiteList = [1,2,3,4]
+stopper = 0
+while stopper < len(finiteList):
+#while stopper <= len(finiteList) creates an Index error 
+#4 in the list is in [3] so [4] does not exist and will throw an error
+    print(finiteList[stopper])
+    stopper = stopper + 1
