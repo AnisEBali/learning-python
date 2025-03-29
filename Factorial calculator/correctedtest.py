@@ -12,5 +12,3 @@ def factorial(num):
         print(fact)
     else:
         print(None)
-
-#Don't print intermediate steps, print final result!!!
