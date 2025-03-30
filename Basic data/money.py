@@ -17,5 +17,20 @@ print(Decimal(1)/Decimal(6))
 getcontext().prec=3
 #Decimal doesn't work with floats
 print(Decimal(1.2) - Decimal(1.0))
+#-> Under the surface it still has the float mistake
+#Not good for money and science
+#Use strings instead:
+print(Decimal('1.2') - Decimal('1.0'))
+
+#Use a safety wrapper:
+def safe_decimal(val):
+    if isinstance (val, float):
+        raise ValueError("Float detected! Use string input instead.")
+    return Decimal(val)
+
+#print(safe_decimal(1.2))
+#Raises Value Error
+print(safe_decimal('1.2'))
+#Returns Decimal
 
 
