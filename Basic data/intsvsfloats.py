@@ -52,3 +52,4 @@ print(int('1E',15))
 #BASE 36: allows up to Z!, so:
 print(int('PYTHONISFUN',36))
 #Works!
+
