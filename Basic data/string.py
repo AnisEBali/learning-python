@@ -26,8 +26,16 @@ print(f'My number is: {5}')
 #But can be embedded:
 print(f'My number is: {5} and twice that is {2*5}')
 
-aLongText = '
-Here is a long text
-'
+#aLongText = '
+#Here is a long text
+#'
 
-print(aLongText)
+#print(aLongText) will give a Syntax error
+#Try with triple quotes instead:
+
+multiLineString = '''
+Her is a long text
+This time it works perfectly!
+I can even add newlines until it sees \'\'\'
+'''
+print(multiLineString)
