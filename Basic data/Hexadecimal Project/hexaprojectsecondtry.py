@@ -9,9 +9,13 @@ hexNumbers = {
 def hexToDec(hexNum):
     hexNum = str(hexNum).upper()
     if len(hexNum) > 3:
-        return hexNum
+        return None
     if (hexNum[0] in hexNumbers) and (hexNum[1] in hexNumbers) and (hexNum[2] in hexNumbers):
         print(hexNumbers[hexNum[0]] + hexNumbers[hexNum[1]] + hexNumbers[hexNum[2]])
+    #This is not how hexadecimal works!
+    #Example: BC2 = 3010
+    #B + C + 2 = 11 + 13 + 2 = 26
+    #How it should be: (11)*16^2 + (13)*16^1 + (2)*16^0
     else:
         return None
 

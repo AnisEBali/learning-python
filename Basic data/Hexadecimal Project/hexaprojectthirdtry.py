@@ -10,17 +10,22 @@ def hexToDec(hexNum):
     hexNum = str(hexNum).upper()
     total = 0
     power = len(hexNum) - 1
-    
+    #Power must the length of hexNum and decrementing!!
+    #For example: A34 -> A = 10*10^2 while 4*10^0!!!
+
     if len(hexNum) > 3:
         return None
-
+    
+    #We're using a for loop because we're looping throughout a fixed collection of items
     for char in hexNum:
         if char in hexNumbers:
             total = total + hexNumbers[char]*16**power
             power = power + 1
+    #I'm incrementing power (1O^3, 10^4, ...) instead of decrementing!!!
 
     else:
         return None
+    #the else is not inside the for-loop and gets run everytime!!!!!
 
         
 print(hexToDec('5E4'))
