@@ -22,8 +22,8 @@ print(type(returnMultipleValues()))
 #UNPACKING VALUES = assigning many values at once:
 a, b, c = returnMultipleValues()
 print(a)
-#-> Result:
+#-> Result: 1
 print(b)
-#-> Result:
+#-> Result: 2
 print(c)
-#-> Result:
+#-> Result: 3
