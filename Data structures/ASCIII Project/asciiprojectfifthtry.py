@@ -24,8 +24,12 @@ def encodeString(stringVal):
 def decodeString(encodedList):
     for key, value in encodedList:
         print(key*value)
-    
-
+    #This prints as:
+    #WWWWW
+    #IIIIII
+    #NNNN
+    #instead of WWWWWIIIIIINNN
+    #You can use return instead
             
 print(encodeString('AAAAABBBBBCCCCC'))
 print(encodeString('bookkeeping'))

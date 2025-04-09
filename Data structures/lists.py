@@ -32,3 +32,4 @@ print(newRangeList[::5])
 print(newRangeList[::-10])
 #-> Result = [99, 89, 79, 69, 59, 49, 39, 29, 19, 9]
 #-> Moves through the list backwards
+

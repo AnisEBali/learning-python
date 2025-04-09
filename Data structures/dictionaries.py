@@ -36,7 +36,7 @@ print(list(animals.keys()))
 print(animals.get('e'))
 #-> Result: None (instead of an Error)
 
-#A DICTIONARY OF LIST
+#A DICTIONARY OF LISTS
 fruits = {
     'a': ['apple', 'appricot'],
     'b': ['banana'],
@@ -60,4 +60,4 @@ if 'c' not in fruits:
     fruits['c'] = ['citron']
 
 print(fruits)
-#-> Result:
+#-> Result: {'a': ['apple', 'appricot'], 'b': ['banana'], 'c': ['cherry', 'coconut'], 'd': ['date'], 'f': ['fig']}
