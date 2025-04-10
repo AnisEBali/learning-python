@@ -38,8 +38,7 @@ while datetime.now().second != wait_fourSeconds:
     #^This gets ignored because continue which makes the function whatever comes next in identation
 print(f'We are at {wait_fourSeconds} seconds!')
 
-#Continue + break
-
+#Continue + break:
 wait_fiveSeconds = (datetime.now().second + 5) % 60
 
 while True:
