@@ -23,5 +23,5 @@ def raiseServerError():
     raise ServerError()
 
 raiseServerError()
-
+# -> Result: ServerError: Status code: 500 and message is The server messed up!
 
