@@ -5,11 +5,12 @@ import time
 def anotherLongSquare(num,results):
     time.sleep(1)
     # ^This is to simulate a slow process
+    # We're gonna use two threads where each will do the function at the same time as the other
     results[num] = num**2
-
-# We're gonna use two threads where each will do the function at the same time as the other
+    # ^ This means inside the dictionary we use num as key, the result as value: {key: value}
+    
 results = {}
-# ^ They will put their results in this shared list
+# ^ We create the empty dictionary where everything will be stored
 
 t1 = threading.Thread(target=anotherLongSquare, args=(1,results))
 # We create a thread with threading.Thread, t1 & t2 as their names
