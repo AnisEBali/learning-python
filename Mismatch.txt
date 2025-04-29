@@ -1,0 +1,71 @@
+Aries: 
+x Sagittarius
+x Leo
+vs Cancer
+vs Capricorn
+
+Taurus: 
+x Cancer
+x Capricorn
+vs Sagittarius
+vs Leo
+
+Gemini:
+x Aquarius
+x Libra
+vs Pisces
+vs Scorpio
+
+Cancer:
+x Taurus
+x Pisces
+vs Aries
+vs Aquarius
+
+Leo:
+x Libra
+x Aries
+vs Capricorn
+vs Taurus
+
+Virgo:
+x Capricon
+x Scorpio
+vs Libra
+vs Sagittarius
+
+Libra:
+x Leo
+x Gemini
+vs Virgo
+vs Pisces
+
+Scorpio:
+x Pisces
+x Virgo
+vs Aquarius
+vs Gemini
+
+Sagittarius:
+x Aquarius
+x Aries
+vs Taurus
+vs Virgo
+
+Capricorn:
+x Virgo
+x Taurus
+vs Leo
+vs Aries
+
+Aquarius:
+x Gemini
+x Sagittarius
+vs Scorpio
+vs Cancer
+
+Pisces:
+x Scorpio
+x Cancer
+vs Gemini
+vs Libra
