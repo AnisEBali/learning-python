@@ -11,9 +11,3 @@ def listPrimes (max):
         if isPrime(n, foundPrimes):
             foundPrimes.append(n)
     return foundPrimes
-
-print(f'primes.py module name is {__name__}')
-# Will print out the name of this module if it's called by another file
-
-if __name__ == '__main__':
-    print('This is a module! PLease import using:\nimport primes')
