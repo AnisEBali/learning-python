@@ -29,7 +29,7 @@ print(h)
 h.write('Line 1\n')
 h.write('Line 2\n')
 
-h.close
+h.close()
 # Writing to a text puts the text first in a buffer and doesn't write to the file
 # You have to close the file first! Then run the py file
 
@@ -39,7 +39,7 @@ i = open('write_text.txt','a')
 i.write('Line 3\n')
 i.write('Line 4\n')
 
-i.close
+i.close()
 
 # Closing files but can lead to unexpected behaviors
 # Safest way to close a file without the possibility to write anything after:
